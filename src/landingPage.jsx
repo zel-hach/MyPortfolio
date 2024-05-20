@@ -7,20 +7,20 @@ import Touch from './Component/Touch'
 
 export default function LandingPage() {
   return (
-    <div>
-        <div id='Home'>
+    <div className='w-full flex flex-col items-center'>
+        <div className='w-full flex justify-center items-center' id='Home'>
         <Home></Home>
         </div>
-        <div id='AboutMe'>
+        <div className='w-full flex justify-center' id='AboutMe'>
         <AboutMe></AboutMe>
         </div>
-        <div id='Skills'>
+        <div className='w-full flex justify-center' id='Skills'>
         <Skills></Skills>
         </div>
-        <div id='Experiences'>
+        <div className='w-full flex justify-center' id='Experiences'>
         <Experiences></Experiences>
         </div>
-        <div id='Touch'>
+        <div className='w-full flex justify-center' id='Touch'>
           <Touch></Touch>
         </div>
     </div>

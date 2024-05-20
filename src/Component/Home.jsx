@@ -29,7 +29,7 @@ export default function Home() {
   }, []);
 
   return (
-    <div className='flex justify-center' id='Home'>
+    <div className='w-full flex flex-col  md:flex-row items-center justify-center' id='Home'>
       <div className='flex flex-col items-center justify-center w-1/2'>
         <h1 className='text-7xl'>Hello I'm zineb EL hachimi</h1>
         <p className='text-2xl'>FullStack developer Reactjs/NestJs</p>
@@ -41,8 +41,6 @@ export default function Home() {
         </div>
       </div>
       <div className='flex justify-center w-1/2'>
-        {/* <img src={img} className='w-3/4 rounded-full'></img>
-         */}
          <div ref={lottieRef}  />
       </div>
     </div>

@@ -2,12 +2,12 @@ import React from 'react'
 
 export default function Touch() {
   return (
-    <div className=''>
+    <div >
       <h1 className='text-7xl font-bold text-center'>
         Get in touch
       </h1>
       <form className='w-full flex flex-col gap-5'>
-        <div className='flex justify-center gap-20'>
+        <div className='flex flex-col md:flex-row justify-center gap-20'>
           <div className='flex flex-col'>
             <label className='invisible'>First Name:</label>
             <input type='text' placeholder='First Name' className='rounded p-2 bg-inherit border-b-2 outline-none'></input>
@@ -17,7 +17,7 @@ export default function Touch() {
             <input type='text' placeholder='Last Name' className='rounded p-2 bg-inherit border-b-2 outline-none'></input>
           </div>
         </div>
-        <div className='flex justify-center gap-20'>
+        <div className='flex flex-col md:flex-row justify-center gap-20'>
           <div className='flex flex-col '>
             <label className='invisible'>Email:</label>
             <input type='text' placeholder='Email ' className='rounded p-2 bg-inherit border-b-2 outline-none'></input>

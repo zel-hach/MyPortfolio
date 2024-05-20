@@ -9,7 +9,7 @@ import LandingPage from './landingPage'
 
 function App() {
   return (
-    <div className=''>
+    <div className='w-full flex flex-col'>
       <BrowserRouter>
       <NavBar></NavBar>
         <Routes>
