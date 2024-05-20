@@ -31,7 +31,7 @@ export default function Home() {
   return (
     <div className='w-full flex flex-col  md:flex-row items-center justify-center' id='Home'>
       <div className='flex flex-col items-center justify-center w-1/2'>
-        <h1 className='text-7xl'>Hello I'm zineb EL hachimi</h1>
+        <h1 className='text-3xl md:text-7xl mt-40 w-full text-center'>Hello I'm zineb EL hachimi</h1>
         <p className='text-2xl'>FullStack developer Reactjs/NestJs</p>
         <div className='flex justify-between gap-6'>
           <FaLinkedin size="30"/>
