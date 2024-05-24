@@ -7,7 +7,7 @@ export default function Touch() {
         Get in touch
       </h1>
       <form className='w-full flex flex-col gap-5'>
-        <div className='flex flex-col md:flex-row justify-center gap-20'>
+        <div className='w-full flex flex-col md:flex-row justify-center gap-20'>
           <div className='flex flex-col'>
             <label className='invisible'>First Name:</label>
             <input type='text' placeholder='First Name' className='rounded p-2 bg-inherit border-b-2 outline-none'></input>

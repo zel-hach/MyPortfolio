@@ -5,12 +5,60 @@
 
 
 body{
-  background-color: black;
-  color: wheat;
+  background-color: rgb(22, 2, 29);
+  color: rgb(191, 177, 190);
   width: 100%;
   margin: auto;
 }
 #root{
   width: 100%;
   margin: auto;
+}
+.popUp {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.popUp .popUptext {
+  visibility: hidden;
+  width: 260px;
+  background-color: #0b4464;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  left: 50%;
+  margin-left: -130px;
+}
+.popUp .popUptext::after {
+  content: "";
+  position: absolute;
+  bottom: 90%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+.popUp .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;} 
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
 }
