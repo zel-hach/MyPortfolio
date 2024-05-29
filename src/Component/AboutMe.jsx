@@ -9,7 +9,7 @@ export default function AboutMe() {
             </div>
             <div className='w-full flex flex-col md:flex-row  justify-center items-center'>
                 <div className='md:w-1/2 flex-8 flex justify-center'>
-                    <img src={myProfile} className='w-96 h-96 rounded-full m-3'></img>
+                    <img src={myProfile} className='w-96 h-96 rounded-full object-cover m-3'></img>
                 </div>
                 <div className='md:w-1/2 flex items-center justify-center'>
                     <p className='text-2xl p-10 text-center '>
