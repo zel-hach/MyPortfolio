@@ -6,8 +6,8 @@ function NavBar() {
       scrollTosection.scrollIntoView({behavior:'smooth'})
   }
   return (
-    <div className='fixed w-full z-10' style={{ backgroundColor: '#57A6A1' }}>
-      <nav className='flex flex-col md:flex-row justify-center md:justify-between p-5'>
+    <div className='fixed w-full z-10 ' style={{ backgroundColor: 'white',color:'black' }}>
+      <nav className='flex flex-col md:flex-row justify-center md:justify-between p-5' data-aos="fade" >
         <Logo></Logo>
         <ul className='flex md:gap-20'>
           <li className='p-3  rounded-lg font-bold' ><button onClick={()=>scrollTo('Home')}>Home</button></li>

@@ -65,9 +65,9 @@ export default function Home() {
   return (
     <div className='w-full flex flex-col  md:flex-row items-center justify-center' >
       <div className='flex flex-col items-center justify-center w-1/2'>
-        <h1 className='text-3xl md:text-7xl mt-40 w-full text-center'>Hello I'm zineb EL hachimi</h1>
-        <p className='text-2xl text-center'>FullStack developer Reactjs/NestJs</p>
-        <div className='flex justify-between gap-6'>
+        <h1 className='text-3xl md:text-7xl mt-40 w-full text-center' data-aos='fade-up'>Hello I'm <span className=''>zineb EL hachimi</span></h1>
+        <p className='text-2xl text-center' data-aos='fade-up'>FullStack developer Reactjs/NestJs</p>
+        <div className='flex justify-between gap-6' data-aos='fade-up'>
           <div className=''>
             <a href='https://linkedin.com/in/zineb-elhachimi-9134651a1/'><FaLinkedin size="30" fill='#0b4464'/></a>
           </div>
@@ -84,7 +84,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className='flex justify-center w-1/2'>
+      <div className='flex justify-center w-1/2' data-aos='zoom-in'>
         <div ref={lottieRef} />
       </div>
     </div>

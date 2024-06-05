@@ -20,40 +20,40 @@ export default function Skills() {
             HTML
           </h1>
           <div class="flex justify-between mb-1">
-            <FaHtml5  size={50}/>
+            <FaHtml5  size={50} className='hover:fill-orange-400 hover:animate-spin'/>
           </div>
         </div>
         <div className='flex flex-col justify-center rounded bg-gray-900 p-10 items-center gap-3 w-full '>
           <h1>JAVASCRIPT</h1>
           <div class="flex justify-between mb-1">
-            <IoLogoJavascript size={50}/>
+            <IoLogoJavascript size={50} className='hover:fill-orange-400 hover:animate-spin'/>
           </div>
         </div>
         <div className='flex flex-col justify-center rounded bg-gray-900 p-10 items-center gap-3 w-full '>
           <h1>CSS/tailwind</h1>
           <div class="flex justify-between mb-1">
-            <FaCss3Alt size={50}/>
-            <RiTailwindCssFill size={50}></RiTailwindCssFill>
+            <FaCss3Alt size={50} className='hover:fill-orange-400 hover:animate-spin'/>
+            <RiTailwindCssFill size={50} className='hover:fill-orange-400 hover:animate-spin'></RiTailwindCssFill>
           </div>
          
         </div>
         <div className='flex flex-col justify-center rounded bg-gray-900 p-10 items-center gap-3 w-full '>
           <h1>DOCKER</h1>
           <div class="flex justify-between mb-1">
-            <FaDocker size={50}></FaDocker>
+            <FaDocker size={50} className='hover:fill-orange-400 hover:animate-spin'></FaDocker>
           </div>
         </div>
   
         <div className='flex flex-col justify-center rounded bg-gray-900 p-10 items-center gap-3 w-full '>
           <h1>ReactJs</h1>
           <div class="flex justify-between mb-1">
-              <RiReactjsFill size={50}></RiReactjsFill>
+              <RiReactjsFill size={50} className='hover:fill-orange-400 hover:animate-spin'></RiReactjsFill>
           </div>
         </div>
         <div className='flex flex-col justify-center rounded bg-gray-900 p-10 items-center gap-3 w-full '>
           <h1>NestJs</h1>
           <div class="flex justify-between mb-1">
-            <SiNestjs size={50}></SiNestjs>
+            <SiNestjs size={50} className='hover:fill-orange-400 hover:animate-spin'></SiNestjs>
           </div>
        
         </div>
