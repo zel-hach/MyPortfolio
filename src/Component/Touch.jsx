@@ -32,7 +32,7 @@ export default function Touch() {
           <textarea className='bg-inherit border-2 px-5 pb-5 rounded outline-none' placeholder='your message'></textarea>
         </div>
         <div className='flex justify-center'>
-          <button className='transition duration-150 ease-in-out bg-green-200 p-3 rounded'>envoyer</button>
+          <button className='transition duration-150 ease-in-out bg-green-200 p-3 rounded'>send</button>
         </div>
       </form>
     </div>
