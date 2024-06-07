@@ -69,17 +69,17 @@ export default function Home() {
         <p className='text-2xl text-center' data-aos='fade-up'>FullStack developer Reactjs/NestJs</p>
         <div className='flex justify-between gap-6' data-aos='fade-up'>
           <div className=''>
-            <a href='https://linkedin.com/in/zineb-elhachimi-9134651a1/'><FaLinkedin size="30" fill='#0b4464'/></a>
+            <a href='https://linkedin.com/in/zineb-elhachimi-9134651a1/'><FaLinkedin size="30" fill='#76ABAE'/></a>
           </div>
           <div>
-            <a href='https://github.com/zel-hach'><FaGithub size="30" fill='#0b4464'/></a>
+            <a href='https://github.com/zel-hach'><FaGithub size="30" fill='#76ABAE'/></a>
           </div>
           <div className='popUp' onMouseEnter={CustomPopUp} ref={popUpRef}>
-            <BiLogoGmail size="30" fill='#0b4464'/>
+            <BiLogoGmail size="30" fill='#76ABAE'/>
             {popUp && <p className='popUptext' id='myPopup'>elhachimizineb1509@gmail.com</p>}
           </div>
           <div className='popUp' onMouseEnter={CustomPopUpNum} ref={popUpRef1}>
-            <FaSquarePhone size="30" fill='#0b4464' />
+            <FaSquarePhone size="30" fill='#76ABAE' />
             {popUpNum && <p className='popUptext' id='myPopupNum'>0694492216</p>}
           </div>
         </div>

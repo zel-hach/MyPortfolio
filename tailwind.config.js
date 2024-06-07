@@ -20,6 +20,10 @@ export default {
       },
       fontFamily:{
         cursive:["Ephesis","cursive"],
+      },
+      colors:{
+        primaryColor:"#31363F",
+        secondryColor:"#76ABAE"
       }
     },
   },
