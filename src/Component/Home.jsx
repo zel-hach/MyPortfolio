@@ -1,11 +1,9 @@
 import React, { useEffect, useRef, useState } from 'react'
-import img from './../assets/Images/1-GLOBAL-REACH.png'
-import { FaLinkedin } from "react-icons/fa";
-import { FaGithub } from "react-icons/fa";
-import { BiLogoGmail } from "react-icons/bi";
-import { FaSquarePhone } from "react-icons/fa6";
+
+
 import Lottie from 'lottie-web';
 import myLottie from './../assets/Animation - 1715870869259.json';
+import Contact from './Contact';
 
 
 
@@ -67,22 +65,7 @@ export default function Home() {
       <div className='flex flex-col items-center justify-center w-1/2'>
         <h1 className='text-3xl md:text-7xl mt-40 w-full text-center' data-aos='fade-up'>Hello I'm <span className=''>zineb EL hachimi</span></h1>
         <p className='text-2xl text-center' data-aos='fade-up'>FullStack developer Reactjs/NestJs</p>
-        <div className='flex justify-between gap-6' data-aos='fade-up'>
-          <div className=''>
-            <a href='https://linkedin.com/in/zineb-elhachimi-9134651a1/'><FaLinkedin size="30" fill='#76ABAE'/></a>
-          </div>
-          <div>
-            <a href='https://github.com/zel-hach'><FaGithub size="30" fill='#76ABAE'/></a>
-          </div>
-          <div className='popUp' onMouseEnter={CustomPopUp} ref={popUpRef}>
-            <BiLogoGmail size="30" fill='#76ABAE'/>
-            {popUp && <p className='popUptext' id='myPopup'>elhachimizineb1509@gmail.com</p>}
-          </div>
-          <div className='popUp' onMouseEnter={CustomPopUpNum} ref={popUpRef1}>
-            <FaSquarePhone size="30" fill='#76ABAE' />
-            {popUpNum && <p className='popUptext' id='myPopupNum'>0694492216</p>}
-          </div>
-        </div>
+        <Contact></Contact>
       </div>
       <div className='flex justify-center w-1/2' data-aos='zoom-in'>
         <div ref={lottieRef} />

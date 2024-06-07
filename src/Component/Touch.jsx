@@ -1,14 +1,19 @@
 import React from 'react'
 import developer from './../assets/Images/clf6810ef000gmi08sa7qop9c_1.jpeg'
+import Contact from './Contact'
 
 export default function Touch() {
   return (
-    <div >
+    <div>
       <h1 className='text-7xl font-bold text-center'>
         Contact me
       </h1>
+      <div className='flex justify-center items-center py-6'>
+        <Contact></Contact>
+      </div>
       <div className='flex flex-col md:flex-row p-9'> 
       <div>
+     
         <img src={developer} className='rounded-full z-40 shadow-2xl'></img>
       </div>
       <form className='w-full flex flex-col gap-5'>
@@ -39,6 +44,7 @@ export default function Touch() {
         <div className='flex justify-center'>
           <button className=' py-3 px-6 bg-secondryColor rounded'>send</button>
         </div>
+     
       </form>
       </div>
     </div>
