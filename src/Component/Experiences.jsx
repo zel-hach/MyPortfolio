@@ -7,7 +7,7 @@ export default function Experiences() {
         Experiences
       </h1>
       <div className='grid  grid-cols-1 items-center  ms:grid-cols-1 md:grid-cols-2 gap-10 justify-between p-20'>
-        <div className='flex flex-col  gap-5  bg-gray-900 p-10 m-2 w-full h-96 border-b-4 border-secondryColor rounded-lg  ' data-aos="flip-left"
+        <div className='flex flex-col  gap-5  bg-gray-900 p-10 m-2 w-full md:h-96 border-b-4 border-secondryColor rounded-lg  ' data-aos="flip-left"
      data-aos-easing="ease-out-cubic"
      data-aos-duration="2000" >
           <h1 className='text-center text-xl  font-bold text-secondryColor'>ft_trensendance:game ping pong platforme web</h1>
@@ -19,7 +19,7 @@ export default function Experiences() {
                ReactJs, NestJs, Socket.io
             </span>
         </div>
-        <div className='flex flex-col  gap-5  bg-gray-900 p-10 m-2 w-full h-96 border-b-4 border-secondryColor rounded-lg  ' data-aos="flip-left"
+        <div className='flex flex-col  gap-5  bg-gray-900 p-10 m-2 w-full md:h-96 border-b-4 border-secondryColor rounded-lg  ' data-aos="flip-left"
      data-aos-easing="ease-out-cubic"
      data-aos-duration="2000" >
           <h1 className='text-center text-xl  font-bold text-secondryColor'>Inception : set up a small infrastructure</h1>
@@ -32,7 +32,7 @@ export default function Experiences() {
               docker-compse, Dockerfile, virtual Machine
             </span>
         </div>
-        <div className='flex flex-col  gap-5  bg-gray-900 p-10 m-2 w-full h-96 border-b-4 border-secondryColor rounded-lg  ' data-aos="flip-left"
+        <div className='flex flex-col  gap-5  bg-gray-900 p-10 m-2 w-full md:h-96 border-b-4 border-secondryColor rounded-lg  ' data-aos="flip-left"
      data-aos-easing="ease-out-cubic"
      data-aos-duration="2000" >
           <h1 className='text-center text-xl  font-bold text-secondryColor'>ft_irc: Create a IRC Server</h1>
@@ -43,7 +43,7 @@ export default function Experiences() {
                C++
             </span>
         </div>
-        <div className='flex flex-col  gap-5  bg-gray-900 p-10 m-2 w-full h-96 border-b-4 border-secondryColor rounded-lg  ' data-aos="flip-left"
+        <div className='flex flex-col  gap-5  bg-gray-900 p-10 m-2 w-full md:h-96 border-b-4 border-secondryColor rounded-lg  ' data-aos="flip-left"
      data-aos-easing="ease-out-cubic"
      data-aos-duration="2000" >
           <h1 className='text-center text-xl  font-bold text-secondryColor'>CUB3D: 3D game</h1>
@@ -55,7 +55,7 @@ export default function Experiences() {
                C
             </span>
         </div>
-        <div className='flex flex-col  gap-5  bg-gray-900 p-10 m-2 w-full h-96 border-b-4 border-secondryColor rounded-lg  ' data-aos="flip-left"
+        <div className='flex flex-col  gap-5  bg-gray-900 p-10 m-2 w-full md:h-96 border-b-4 border-secondryColor rounded-lg  ' data-aos="flip-left"
      data-aos-easing="ease-out-cubic"
      data-aos-duration="2000" >
           <h1 className='text-center text-xl  font-bold text-secondryColor'>End of studies project:</h1>
