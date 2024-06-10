@@ -12,7 +12,7 @@ export default function AboutMe() {
                     <img src={myProfile} className='w-96 h-96 rounded-full m-3'></img>
                 </div>
                 <div className='md:w-1/2 flex items-center justify-center'>
-                    <p className='text-2xl p-10 text-center ' data-aos="flip-left"
+                    <p className='p-5 text-center ' data-aos="flip-left"
      data-aos-easing="ease-out-cubic"
      data-aos-duration="2000">
                         My passion for frontend development, particularly with React.js, stems from my strong background in JavaScript, CSS, HTML, SQL, C, and C++. I have extensive experience in backend development, including using the NestJS framework.

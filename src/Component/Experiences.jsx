@@ -11,7 +11,7 @@ export default function Experiences() {
      data-aos-easing="ease-out-cubic"
      data-aos-duration="2000" >
           <h1 className='text-center text-xl  font-bold text-secondryColor'>ft_trensendance:game ping pong platforme web</h1>
-          <p className='text-center font-bold'>
+          <p className='text-center '>
             Regarding the realization of the project of creating a table tennis game including a
             real-time discussion feature between players I focused my efforts on the analysis of two key aspects of chat (live chat and channel).
           </p>
@@ -23,7 +23,7 @@ export default function Experiences() {
      data-aos-easing="ease-out-cubic"
      data-aos-duration="2000" >
           <h1 className='text-center text-xl  font-bold text-secondryColor'>Inception : set up a small infrastructure</h1>
-          <p className='text-center font-bold'>
+          <p className='text-center '>
             As part of this project, I gained a key competency in container management using Docker images,
             which are predefined and pre-built templatesconfigured,
             I am now able to use existing Docker images to run applications and build my own custom Docker images.
@@ -36,7 +36,7 @@ export default function Experiences() {
      data-aos-easing="ease-out-cubic"
      data-aos-duration="2000" >
           <h1 className='text-center text-xl  font-bold text-secondryColor'>ft_irc: Create a IRC Server</h1>
-          <p className='text-center font-bold'>
+          <p className='text-center '>
             The objective of this project is to reproduce the functioning of an IRC server.
           </p>
              <span className=' font-bold text-secondryColor text-center'>
@@ -47,7 +47,7 @@ export default function Experiences() {
      data-aos-easing="ease-out-cubic"
      data-aos-duration="2000" >
           <h1 className='text-center text-xl  font-bold text-secondryColor'>CUB3D: 3D game</h1>
-          <p className='text-center font-bold'>
+          <p className='text-center '>
             This project is a three-dimensional game entirely developed in C language,
             based on an outdated graphic library called mini-libx. It is broadcast using raycasting technology, which gives a satisfying 3D realism illusion.
           </p>
@@ -59,7 +59,7 @@ export default function Experiences() {
      data-aos-easing="ease-out-cubic"
      data-aos-duration="2000" >
           <h1 className='text-center text-xl  font-bold text-secondryColor'>End of studies project:</h1>
-          <p className='text-center font-bold'>
+          <p className='text-center'>
             the modelling and simulation of a photovoltaic system connected to the network.
             Mini project: private school websites with  
           </p>
