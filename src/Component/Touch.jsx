@@ -17,7 +17,7 @@ export default function Touch() {
         <img src={developer} className='rounded-full z-40 shadow-2xl'></img>
       </div>
       <form className='w-full flex flex-col gap-10'>
-        <div className='w-full flex flex-col md:flex-row justify-center gap-20'>
+        <div className='w-full flex flex-col md:flex-row justify-center gap-10'>
           <div className='flex flex-col'>
             <input type='text' placeholder='First Name' className='rounded p-2 bg-inherit text-white border-b-2 border-secondryColor  outline-none focus:placeholder-gray-500  focus:placeholder-opacity-0 peer '></input>
             <label className='invisible peer-focus:visible absolute -translate-y-4 text-gray-500'>First Name</label>
@@ -27,7 +27,7 @@ export default function Touch() {
             <label className='invisible  peer-focus:visible absolute -translate-y-4 text-gray-500 '>Last Name</label>
           </div>
         </div>
-        <div className='flex flex-col md:flex-row justify-center gap-20'>
+        <div className='flex flex-col md:flex-row justify-center gap-10'>
           <div className='flex flex-col'>
             <input type='text' placeholder='Email ' className='rounded p-2 bg-inherit text-white border-b-2 border-secondryColor outline-none focus:placeholder-gray-500  focus:placeholder-opacity-0 peer'></input>
             <label className='invisible peer-focus:visible absolute -translate-y-4 text-gray-500 '>Email</label>
