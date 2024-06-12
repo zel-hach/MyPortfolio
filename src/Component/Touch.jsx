@@ -16,35 +16,34 @@ export default function Touch() {
      
         <img src={developer} className='rounded-full z-40 shadow-2xl'></img>
       </div>
-      <form className='w-full flex flex-col gap-5'>
+      <form className='w-full flex flex-col gap-10'>
         <div className='w-full flex flex-col md:flex-row justify-center gap-20'>
           <div className='flex flex-col'>
-            <label className='invisible'>First Name:</label>
-            <input type='text' placeholder='First Name' className='rounded p-2 bg-inherit text-white border-b-2 border-secondryColor  outline-none'></input>
+            <input type='text' placeholder='First Name' className='rounded p-2 bg-inherit text-white border-b-2 border-secondryColor  outline-none focus:placeholder-gray-500  focus:placeholder-opacity-0 peer '></input>
+            <label className='invisible peer-focus:visible absolute -translate-y-4 text-gray-500'>First Name</label>
           </div>
           <div className='flex flex-col'>
-            <label className='invisible'>Last Name:</label>
-            <input type='text' placeholder='Last Name' className='rounded p-2 bg-inherit text-white border-b-2 border-secondryColor outline-none'></input>
+            <input type='text' placeholder='Last Name' className='rounded p-2 bg-inherit text-white border-b-2 border-secondryColor outline-none  focus:placeholder-gray-500  focus:placeholder-opacity-0 peer'></input>
+            <label className='invisible  peer-focus:visible absolute -translate-y-4 text-gray-500 '>Last Name</label>
           </div>
         </div>
         <div className='flex flex-col md:flex-row justify-center gap-20'>
-          <div className='flex flex-col '>
-            <label className='invisible'>Email:</label>
-            <input type='text' placeholder='Email ' className='rounded p-2 bg-inherit text-white border-b-2 border-secondryColor outline-none'></input>
+          <div className='flex flex-col'>
+            <input type='text' placeholder='Email ' className='rounded p-2 bg-inherit text-white border-b-2 border-secondryColor outline-none focus:placeholder-gray-500  focus:placeholder-opacity-0 peer'></input>
+            <label className='invisible peer-focus:visible absolute -translate-y-4 text-gray-500 '>Email</label>
           </div>
           <div className='flex flex-col'>
-            <label className='invisible'>phone number: </label>
-            <input type='text' placeholder='Phone number' className='rounded p-2 bg-inherit text-white border-b-2 border-secondryColor outline-none'></input>
+            <input type='text' placeholder='Phone number' className='rounded p-2 bg-inherit text-white border-b-2 border-secondryColor outline-none focus:placeholder-gray-500  focus:placeholder-opacity-0 peer'></input>
+            <label className='invisible peer-focus:visible absolute -translate-y-4 text-gray-500 '>Phone number </label>
           </div>
         </div>
-        <div className='flex flex-col items-center w-full h-40 md:px-24'>
-          <label className='invisible'>message</label>
-          <textarea className='bg-inherit text-white border-2  border-secondryColor  px-5 md:pb-5 rounded outline-none w-full h-full' placeholder='your message'></textarea>
+        <div className='flex flex-col w-full h-40 md:px-24'>
+          <textarea className='bg-inherit text-white border-2  border-secondryColor  px-5 md:pb-5 rounded outline-none w-full h-full focus:placeholder-gray-500  focus:placeholder-opacity-0 peer' placeholder='Enter your message'></textarea>
+          <label className='invisible peer-focus:visible absolute -translate-y-7 text-left text-gray-500'>Message </label>
         </div>
         <div className='flex justify-center'>
           <button className=' py-3 px-6 bg-secondryColor rounded'>send</button>
         </div>
-     
       </form>
       </div>
     </div>
