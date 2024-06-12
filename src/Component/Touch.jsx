@@ -33,13 +33,13 @@ export default function Touch() {
             <input type='text' placeholder='Email ' className='rounded p-2 bg-inherit text-white border-b-2 border-secondryColor outline-none'></input>
           </div>
           <div className='flex flex-col'>
-            <label className='invisible'>Number phone: </label>
-            <input type='text' placeholder='Number phone' className='rounded p-2 bg-inherit text-white border-b-2 border-secondryColor outline-none'></input>
+            <label className='invisible'>phone number: </label>
+            <input type='text' placeholder='Phone number' className='rounded p-2 bg-inherit text-white border-b-2 border-secondryColor outline-none'></input>
           </div>
         </div>
-        <div className='flex flex-col items-center w-full h-40 px-24'>
+        <div className='flex flex-col items-center w-full h-40 md:px-24'>
           <label className='invisible'>message</label>
-          <textarea className='bg-inherit text-white border-2  border-secondryColor  px-5 pb-5 rounded outline-none w-full h-full' placeholder='your message'></textarea>
+          <textarea className='bg-inherit text-white border-2  border-secondryColor  px-5 md:pb-5 rounded outline-none w-full h-full' placeholder='your message'></textarea>
         </div>
         <div className='flex justify-center'>
           <button className=' py-3 px-6 bg-secondryColor rounded'>send</button>
