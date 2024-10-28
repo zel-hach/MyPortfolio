@@ -23,7 +23,7 @@ export default function LandingPage() {
         <div className='w-full flex justify-center' id='Touch'>
           <Touch></Touch>
         </div>
-        <div>
+        <div className='pb-2'>
           <p className='text-xs'>© 2024 Portfolio,EL hachimi zineb. All Rights Reserved.</p>
         </div>
     </div>
