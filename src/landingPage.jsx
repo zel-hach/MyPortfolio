@@ -24,7 +24,7 @@ export default function LandingPage() {
           <Touch></Touch>
         </div>
         <div className='pb-2'>
-          <p className='text-xs pb-4'>© 2024 Portfolio,EL hachimi zineb. All Rights Reserved.</p>
+          <p className='text-xs pb-2'>© 2024 Portfolio,EL hachimi zineb. All Rights Reserved.</p>
         </div>
     </div>
   )
