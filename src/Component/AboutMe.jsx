@@ -1,5 +1,5 @@
 import React from 'react'
-import myProfile from './../assets/Images/IMG_6737.jpg'
+import myProfile from './../assets/Images/_DSC0551-removebg-preview.png'
 
 export default function AboutMe() {
     return (
@@ -9,7 +9,7 @@ export default function AboutMe() {
             </div>
             <div className='w-full flex flex-col md:flex-row  justify-center items-center'>
                 <div className='md:w-1/2 flex-8 flex justify-center' data-aos="zoom-in">
-                    <img src={myProfile} className='w-96 h-96 rounded-full m-3'></img>
+                    <img src={myProfile} className='m-3 rounded-full'></img>
                 </div>
                 <div className='md:w-1/2 flex items-center justify-center'>
                     <p className='p-5 text-center ' data-aos="flip-left"
