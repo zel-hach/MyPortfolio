@@ -14,8 +14,9 @@ export default function Skills() {
       <h1 className='text-7xl font-bold text-center' data-aos='zoom-in'>
         My Skills
       </h1>
+      <div className='flex justify-center w-full'>
       <div className='grid grid-cols-1 ms:grid-cols-2 md:grid-cols-3  items-center  md:flex-row md:items-start  justify-between p-20 gap-10'>
-        <div className='flex flex-col  justify-center  bg-gray-900 p-10 items-center gap-3 w-full border-b-4 border-secondryColor rounded-lg hover:bg-secondryColor hover:border-gray-800 ' data-aos="flip-right"
+        <div className='flex flex-col  justify-center  bg-gray-900 p-10 items-center gap-3 w-[457px] border-b-4 border-secondryColor rounded-lg hover:bg-secondryColor hover:border-gray-800 ' data-aos="flip-right"
      data-aos-easing="ease-out-cubic"
      data-aos-duration="2000">
           <h1>
@@ -71,5 +72,6 @@ export default function Skills() {
         </div>
       </div>
     </div>
+      </div>
   )
 }
