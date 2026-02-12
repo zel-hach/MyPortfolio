@@ -9,7 +9,7 @@ export default function AboutMe() {
             </div>
             <div className='w-full flex flex-col md:flex-row  justify-center items-center p-5'>
                 <div className='md:w-1/2 flex-8 flex justify-center bg-opacity-80 '>
-                <div className='border-t-8 border-secondryColor rounded-lg bg-transparent'>
+                <div className='bg-transparent'>
                     <img src={myProfile} className='border-b-8 border-secondryColor rounded-lg'>
                     </img>
                 </div>
