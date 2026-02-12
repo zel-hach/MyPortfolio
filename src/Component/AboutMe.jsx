@@ -7,12 +7,15 @@ export default function AboutMe() {
             <div className='flex justify-center' data-aos='zoom-in'>
                 <h1 className='text-7xl font-bold'>About me</h1>
             </div>
-            <div className='w-full flex flex-col md:flex-row  justify-center items-center'>
-                <div className='md:w-1/2 flex-8 flex justify-center' data-aos="zoom-in">
-                    <img src={myProfile} className='m-3 rounded-full'></img>
+            <div className='w-full flex flex-col md:flex-row  justify-center items-center p-5'>
+                <div className='md:w-1/2 flex-8 flex justify-center'>
+                <div className='border-t-8 border-secondryColor rounded-lg'>
+                    <img src={myProfile} className='border-b-8 border-secondryColor rounded-lg'>
+                    </img>
+                </div>
                 </div>
                 <div className='md:w-1/2 flex items-center justify-center'>
-                    <p className='p-5 text-center ' data-aos="flip-left"
+                    <p className='p-5 text-center text-xl' data-aos="flip-left"
      data-aos-easing="ease-out-cubic"
      data-aos-duration="2000">
                         My passion for frontend development, particularly with React.js, stems from my strong background in JavaScript, CSS, HTML, SQL, C, and C++. I have extensive experience in backend development, including using the NestJS framework.
