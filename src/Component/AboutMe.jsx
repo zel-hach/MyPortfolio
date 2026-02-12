@@ -8,8 +8,8 @@ export default function AboutMe() {
                 <h1 className='text-7xl font-bold'>About me</h1>
             </div>
             <div className='w-full flex flex-col md:flex-row  justify-center items-center p-5'>
-                <div className='md:w-1/2 flex-8 flex justify-center'>
-                <div className='border-t-8 border-secondryColor rounded-lg'>
+                <div className='md:w-1/2 flex-8 flex justify-center bg-opacity-80 '>
+                <div className='border-t-8 border-secondryColor rounded-lg bg-transparent'>
                     <img src={myProfile} className='border-b-8 border-secondryColor rounded-lg'>
                     </img>
                 </div>
